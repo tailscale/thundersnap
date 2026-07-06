@@ -52,7 +52,7 @@ The primary attribute of a Thundersnap system is Durability — the D in
 database “ACID” terminology. Thundersnap works pretty hard to make your data
 durable. It doesn’t particularly try at Atomicity, Consistency, or
 Isolation. In this version it’s probably not super Durable either, but
-that’s not an achitectural limit.
+that’s not an architectural limit.
 
 The underlying thesis of Thundersnap is that modern distributed storage
 needs to rely on *snapshots* rather than real-time synchronization. Nothing
